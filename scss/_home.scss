@@ -1,0 +1,28 @@
+/* ---------------------------------HOME---------------------------------*/
+#grilla_home {
+    display: grid;
+    grid-template-rows: 80px 564px 30px;
+    grid-template-areas: "header" "banner_home" "footer";
+    grid-row-gap: 3px;
+    grid-column-gap: 3px; }
+
+.banner_principal {
+    grid-area: banner_home;
+    margin-top: 30px;
+    text-align: center;
+    animation-duration: 4s;
+    animation-name: principal; }
+
+@media screen and (max-width: 600px) {
+    .banner_principal { 
+    margin-top: 0px;} 
+    
+}
+
+    @keyframes principal {
+    0% {
+    opacity: 0; }
+    50% {
+    opacity: 0,5; }
+    100% {
+    opacity: 1; } }

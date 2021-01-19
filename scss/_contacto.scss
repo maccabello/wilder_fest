@@ -1,0 +1,18 @@
+/* ---------------------------------CONTACTO---------------------------------*/
+#grilla_cont {
+    display: grid;
+    grid-template-rows: 100px 574px 72px;
+    grid-template-areas: "header header"
+    "cont cont"
+    "footer footer";
+    grid-row-gap: 3px; }
+
+.contacto {
+    grid-area: cont;
+    margin-top: 70px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: row; }
+
+    .info_contacto {
+    padding-right: 40px; }

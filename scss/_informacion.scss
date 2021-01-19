@@ -1,0 +1,27 @@
+/* ---------------------------------INFORMACIÓN---------------------------------*/
+#grilla_inf {
+    display: grid;
+    grid-template-rows: 100px 575px 72px;
+    grid-template-areas: "header header"
+    "info info"
+    "footer footer";
+    grid-row-gap: 3px; }
+
+.info {
+    grid-area: info;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px; }
+
+.info__texto {
+    width: 556px;
+}
+
+.info__img {
+    margin-left: 150px;
+}
+
+.texto_cards {
+    color: beige;
+    margin-left: 10px;
+}

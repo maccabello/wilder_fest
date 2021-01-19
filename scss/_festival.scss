@@ -1,0 +1,29 @@
+/* ---------------------------------FESTIVAL---------------------------------*/
+#grilla_fest {
+    display: grid;
+    grid-template-rows: 100px 576px 72px;
+    grid-template-areas: "header header"
+    "festgrid festimg"
+    "footer footer";
+    grid-row-gap: 3px; }
+
+    .contfest {
+    margin-top: 80px;
+    margin-left: 44px;
+    padding-bottom: 50px;}
+
+.row {
+    display: flex;
+    flex-direction: row; }
+
+.festival {
+    grid-area: festgrid;
+    width: 556px;
+    padding-right: 40px; }
+
+.img_festival {
+    grid-area: festimg;
+    align-self: auto; 
+    margin-left: 53px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
