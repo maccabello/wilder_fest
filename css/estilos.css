@@ -6,8 +6,8 @@ header {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: linear-gradient(#7a7a7a, #b6b6b6);
-  margin: 0px 3px 0px 6px; }
+  background-image: linear-gradient(#141414, #000000);
+  margin: 0px 3px 0px 0px; }
 
 table {
   font-size: 12px;
@@ -22,9 +22,10 @@ tr, td {
   color: #2a50a1; }
 
 h1 {
-  color: #073d8d;
+  color: #0950bb;
   font-weight: bold;
-  font-size: 28px; }
+  font-size: 28px;
+  font-family: 'Courier New', Courier, monospace; }
 
 h2 {
   color: #073d8d;
@@ -32,11 +33,17 @@ h2 {
   font-size: 25px;
   padding-top: 15px; }
 
+h2:hover {
+  color: #0e0468; }
+
+h5 {
+  font-weight: bold; }
+
 h6 {
   font-weight: bold; }
 
 p {
-  color: black; }
+  color: white; }
 
 .bajada {
   font-style: italic; }
@@ -51,10 +58,13 @@ nav ul {
   margin-top: 70px; }
 
 .sm_ig {
-  margin-top: 6px; }
+  margin-top: 4px;
+  padding-right: 8px;
+  opacity: 0.5; }
 
 .sm_fb {
-  margin-top: 4px; }
+  margin-top: 4px;
+  opacity: 0.5; }
 
 .cast {
   list-style-type: circle; }
@@ -62,21 +72,17 @@ nav ul {
 /* ---------------------------------HOME---------------------------------*/
 #grilla_home {
   display: grid;
-  grid-template-rows: 80px 564px 30px;
+  grid-template-rows: 80px 504px 60px;
   grid-template-areas: "header" "banner_home" "footer";
   grid-row-gap: 3px;
   grid-column-gap: 3px; }
 
 .banner_principal {
   grid-area: banner_home;
-  margin-top: 30px;
+  margin: 30px 30px 0px 30px;
   text-align: center;
   animation-duration: 4s;
   animation-name: principal; }
-
-@media screen and (max-width: 600px) {
-  .banner_principal {
-    resize: 10px; } }
 
 @keyframes principal {
   0% {
@@ -86,59 +92,70 @@ nav ul {
   100% {
     opacity: 1; } }
 
+@media screen and (max-width: 800px) {
+  .banner_principal {
+    margin-top: 0px; }
+    .banner_principal h2.responsive {
+      font-size: 14px; } }
+
 /* ---------------------------------FESTIVAL---------------------------------*/
-#grilla_fest {
-  display: grid;
-  grid-template-rows: 100px 576px 72px;
-  grid-template-areas: "header header" "festgrid festimg" "footer footer";
-  grid-row-gap: 3px; }
-
-.contfest {
-  margin-top: 80px;
-  margin-left: 44px;
-  padding-bottom: 50px; }
-
 .row {
   display: flex;
-  flex-direction: row; }
-
-.festival {
-  grid-area: festgrid;
-  width: 556px;
-  padding-right: 40px; }
+  flex-direction: row;
+  margin: 130px 10px 100px 0px; }
 
 .img_festival {
-  grid-area: festimg;
-  align-self: auto;
-  margin-left: 53px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  animation-duration: 4s;
+  animation-name: imgfest; }
+
+@keyframes imgfest {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0,5; }
+  100% {
+    opacity: 1; } }
+
+@media screen and (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    margin: 31px 10px 0px 4px !important; } }
 
 /* ---------------------------------PROGRAMA---------------------------------*/
 #grilla_prog {
   display: grid;
-  grid-template-rows: 100px 575px 72px;
+  grid-template-rows: 100px 530px 40px;
   grid-template-areas: "header header" "contprog contprog" "footer footer";
   grid-row-gap: 3px; }
 
 .contprog {
-  grid-area: contprog; }
+  grid-area: contprog;
+  margin-bottom: 20px; }
 
 .reservas {
-  margin-top: 50px;
+  margin-top: 20px;
   padding-bottom: 10px;
+  margin-left: 17px;
   width: 600px; }
 
 .days {
   display: flex;
   flex-direction: row; }
 
-.footer {
-  margin-top: 40px; }
+@media screen and (max-width: 600px) {
+  .days {
+    display: flex;
+    flex-direction: row;
+    margin: 31px 10px 0px 4px !important; } }
+
+.footer_prog {
+  margin-top: 33px; }
 
 /* ---------------------------------INFORMACIÓN---------------------------------*/
 #grilla_inf {
   display: grid;
-  grid-template-rows: 100px 575px 72px;
+  grid-template-rows: 100px 545px 72px;
   grid-template-areas: "header header" "info info" "footer footer";
   grid-row-gap: 3px; }
 
@@ -161,14 +178,14 @@ nav ul {
 /* ---------------------------------CONTACTO---------------------------------*/
 #grilla_cont {
   display: grid;
-  grid-template-rows: 100px 574px 72px;
+  grid-template-rows: 100px 524px 72px;
   grid-template-areas: "header header" "cont cont" "footer footer";
   grid-row-gap: 3px; }
 
 .contacto {
   grid-area: cont;
   margin-top: 70px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   display: flex;
   flex-direction: row; }
 
@@ -177,5 +194,14 @@ nav ul {
 
 /* ---------------------------------FOOTER---------------------------------*/
 footer {
+  background-image: linear-gradient(#131313, #141414);
   grid-area: footer;
-  font-size: 11px; }
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.404); }
+
+@media screen and (max-width: 800px) {
+  .footer_resp {
+    margin-top: 0px; } }
+
+.contactanos {
+  padding-top: 10px; }

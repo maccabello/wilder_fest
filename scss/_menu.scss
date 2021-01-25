@@ -1,12 +1,13 @@
 /* ---------------------------------MENÚ---------------------------------*/
     header {
         grid-area: header; 
-        margin-top: 10px;}
+        margin-top: 10px;
+        margin-right: 30px;}
     
     body {
         font-family: 'Poppins', sans-serif;
-        background-image: linear-gradient(#7a7a7a, #b6b6b6);
-        margin: 0px 3px 0px 6px;
+        background-image: linear-gradient(#141414, #000000);
+        margin: 0px 3px 0px 0px;
         }
     
     table {
@@ -22,9 +23,10 @@
         color: #2a50a1; }
     
     h1 {
-        color: #073d8d;
+        color: #0950bb;
         font-weight: bold;
-        font-size: 28px;}
+        font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;}
 
     h2 {
         color: #073d8d;
@@ -32,13 +34,21 @@
         font-size: 25px;
         padding-top: 15px;
     }
-    
+
+    h2:hover {
+    color: #0e0468;
+    }
+
+    h5 {
+        font-weight: bold;
+    }
+
     h6 {
         font-weight: bold;
     }
-    
+
     p {
-        color: black; }
+        color: rgb(255, 255, 255); }
     
     .bajada {
         font-style: italic;
@@ -56,10 +66,14 @@
         margin-top: 70px; }
     
     .sm_ig {
-        margin-top: 6px; }
+        margin-top: 4px;
+        padding-right: 8px;
+        opacity: 0.5;}
     
     .sm_fb {
-        margin-top: 4px; }
+        margin-top: 4px; 
+        opacity: 0.5;}
     
     .cast {
         list-style-type: circle;}
+

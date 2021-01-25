@@ -1,7 +1,7 @@
 /* ---------------------------------CONTACTO---------------------------------*/
 #grilla_cont {
     display: grid;
-    grid-template-rows: 100px 574px 72px;
+    grid-template-rows: 100px 524px 72px;
     grid-template-areas: "header header"
     "cont cont"
     "footer footer";
@@ -10,7 +10,7 @@
 .contacto {
     grid-area: cont;
     margin-top: 70px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     display: flex;
     flex-direction: row; }
 

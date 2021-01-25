@@ -1,5 +1,17 @@
 /* ---------------------------------FOOTER---------------------------------*/
 footer {
+    background-image: linear-gradient(#131313, #141414);
     grid-area: footer;
     font-size: 11px;
+    color: rgba(255, 255, 255, 0.404);
     }
+
+    @media screen and (max-width: 800px) {
+        .footer_resp {
+        margin-top: 0px;
+        } 
+    }
+
+.contactanos {
+    padding-top: 10px;
+}
