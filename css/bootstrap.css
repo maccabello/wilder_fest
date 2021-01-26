@@ -4624,12 +4624,12 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(69, 66, 255, 0.9);
   font-weight: 500;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(47, 17, 119, 0.9);
 }
 
 .navbar-light .navbar-nav .nav-link {

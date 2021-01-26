@@ -12,7 +12,15 @@
     margin-top: 70px;
     padding-bottom: 150px;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row; 
+    margin-left: 29px;}
 
     .info_contacto {
     padding-right: 40px; }
+
+@media screen and (max-width: 600px) {   
+    .contacto {
+        display: flex;
+        flex-direction: row;
+        margin: 31px 10px 0px 4px !important;
+}}

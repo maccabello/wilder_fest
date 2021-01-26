@@ -1,7 +1,7 @@
 /* ---------------------------------HOME---------------------------------*/
 #grilla_home {
     display: grid;
-    grid-template-rows: 80px 504px 60px;
+    grid-template-rows: 80px 510px 60px;
     grid-template-areas: "header" "banner_home" "footer";
     grid-row-gap: 3px;
     grid-column-gap: 3px; }
@@ -21,9 +21,11 @@
     100% {
     opacity: 1; } }
 
-@media screen and (max-width: 800px) {
-    .banner_principal { 
-    margin-top: 0px;
-    h2.responsive {
-        font-size: 14px;
-    }}}
+@media screen and (max-width: 600px) {
+    #grilla_home {
+        display: grid;
+        grid-template-rows: 60px 150px 60px;
+        grid-template-areas: "header" "banner_home" "footer";
+        grid-row-gap: 3px;
+        grid-column-gap: 3px; }
+}
