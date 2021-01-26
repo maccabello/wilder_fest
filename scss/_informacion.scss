@@ -1,17 +1,8 @@
 /* ---------------------------------INFORMACIÓN---------------------------------*/
-#grilla_inf {
-    display: grid;
-    grid-template-rows: 100px 545px 72px;
-    grid-template-areas: "header header"
-    "info info"
-    "footer footer";
-    grid-row-gap: 3px; }
-
 .info {
-    grid-area: info;
     display: flex;
     flex-direction: row;
-    margin-top: 20px; 
+    margin-top: 90px; 
     margin-left: 29px;}
 
 .info__texto {
@@ -19,10 +10,24 @@
 }
 
 .info__img {
-    margin-left: 150px;
+    margin-left: 100px;
+    margin-right: 20px;
 }
 
 .texto_cards {
     color: beige;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px; 
+        margin-left: 29px;
+        .info__img {
+            margin-left: 10px;
+            .info__texto {
+                width: 206px;
+            }
+}}}
