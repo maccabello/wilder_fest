@@ -108,7 +108,12 @@ nav ul {
   flex-direction: row;
   margin: 130px 16px 100px 24px; }
 
+.festival {
+  margin-top: 100px; }
+
 .img_festival {
+  height: 100%;
+  margin-top: 70px;
   animation-duration: 4s;
   animation-name: imgfest; }
 
@@ -124,7 +129,11 @@ nav ul {
   .row {
     display: flex;
     flex-direction: row;
-    margin: 31px 10px 0px 4px !important; } }
+    margin: 31px 0px 0px 0px !important; }
+    .row .festival {
+      margin-top: 10px; }
+      .row .festival .img_festival {
+        margin-top: 3px; } }
 
 /* ---------------------------------PROGRAMA---------------------------------*/
 .contprog {
@@ -177,8 +186,7 @@ nav ul {
 
 /* ---------------------------------CONTACTO---------------------------------*/
 .row {
-  margin-top: 70px;
-  padding-bottom: 0px;
+  margin-top: 60px;
   display: flex;
   flex-direction: row; }
 
