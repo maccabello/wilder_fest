@@ -1,12 +1,4 @@
 /* ---------------------------------PROGRAMA---------------------------------*/
-#grilla_prog {
-    display: grid;
-    grid-template-rows: 100px 530px 40px;
-    grid-template-areas: "header header"
-    "contprog contprog"
-    "footer footer";
-    grid-row-gap: 3px; }
-
 .contprog {
     grid-area: contprog;
     margin-bottom: 20px;
@@ -26,7 +18,7 @@
 @media screen and (max-width: 600px) {
     .days {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin: 31px 10px 0px 4px !important;
     }
 }

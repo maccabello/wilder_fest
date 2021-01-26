@@ -1,26 +1,23 @@
 /* ---------------------------------CONTACTO---------------------------------*/
-#grilla_cont {
-    display: grid;
-    grid-template-rows: 100px 524px 72px;
-    grid-template-areas: "header header"
-    "cont cont"
-    "footer footer";
-    grid-row-gap: 3px; }
-
-.contacto {
-    grid-area: cont;
+.row {
     margin-top: 70px;
-    padding-bottom: 150px;
+    padding-bottom: 0px;
     display: flex;
-    flex-direction: row; 
-    margin-left: 29px;}
+    flex-direction: row; }
 
-    .info_contacto {
-    padding-right: 40px; }
+
+.foto_contacto {
+    margin-top: 20px;
+    height: 100%;}
 
 @media screen and (max-width: 600px) {   
     .contacto {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin: 31px 10px 0px 4px !important;
-}}
+
+    .foto_contacto {
+    margin-top: 20px;
+    align-content: right;
+    height: 100% !important;
+}}}
