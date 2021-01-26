@@ -20,6 +20,9 @@
 }
 
 @media screen and (max-width: 600px) {
+    .info__texto {
+        width: 406px !important;
+    }
     .info {
         display: flex;
         flex-direction: column;
@@ -27,7 +30,4 @@
         margin-left: 29px;
         .info__img {
             margin-left: 10px;
-            .info__texto {
-                width: 206px;
-            }
 }}}

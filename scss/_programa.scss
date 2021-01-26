@@ -8,7 +8,7 @@
     margin-top: 50px;
     padding-bottom: 5px;
     margin-left: 17px;
-    width: 600px; }
+    width: 500px; }
 
 .days {
     display: flex;
@@ -16,12 +16,14 @@
 }
 
 @media screen and (max-width: 600px) {
+    .reservas{ 
+        width: 400px!important;
+    }
     .days {
         display: flex;
         flex-direction: column;
         margin: 31px 10px 0px 4px !important;
-    }
-}
+}}
 
 .footer_prog {
     margin-top: 20px;
