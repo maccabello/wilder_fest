@@ -4,11 +4,18 @@
     display: flex;
     flex-direction: row; }
 
-
+    label[for=nya]
+    {
+    color: rgb(158, 158, 158);
+    }
 
 .foto_contacto {
     margin-top: 20px;
     height: 100%;}
+
+.news {
+    color: rgb(102, 102, 102);
+}
 
 @media screen and (max-width: 600px) {   
     .contacto {

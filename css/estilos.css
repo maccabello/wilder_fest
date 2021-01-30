@@ -72,13 +72,6 @@ nav ul {
   list-style-type: circle; }
 
 /* ---------------------------------HOME---------------------------------*/
-#grilla_home {
-  display: grid;
-  grid-template-rows: 80px 510px 60px;
-  grid-template-areas: "header" "banner_home" "footer";
-  grid-row-gap: 3px;
-  grid-column-gap: 3px; }
-
 .banner_principal {
   grid-area: banner_home;
   margin: 30px 30px 0px 30px;
@@ -145,16 +138,16 @@ nav ul {
   margin-top: 50px;
   padding-bottom: 5px;
   margin-left: 17px;
-  width: 500px; }
+  width: 920px; }
 
-.days {
+.days_row {
   display: flex;
   flex-direction: row; }
 
 @media screen and (max-width: 600px) {
   .reservas {
-    width: 400px !important; }
-  .days {
+    width: 300px !important; }
+  .days_row {
     display: flex;
     flex-direction: column;
     margin: 31px 10px 0px 4px !important; } }
@@ -180,6 +173,16 @@ nav ul {
   color: beige;
   margin-left: 10px; }
 
+.btn-link {
+  text-decoration: none; }
+
+.btn-link:hover {
+  text-decoration: none;
+  color: #030341; }
+
+.card {
+  background-color: #494949; }
+
 @media screen and (max-width: 600px) {
   .info__texto {
     width: 406px !important; }
@@ -197,9 +200,15 @@ nav ul {
   display: flex;
   flex-direction: row; }
 
+label[for=nya] {
+  color: #9e9e9e; }
+
 .foto_contacto {
   margin-top: 20px;
   height: 100%; }
+
+.news {
+  color: #666666; }
 
 @media screen and (max-width: 600px) {
   .contacto {

@@ -18,6 +18,18 @@
     color: beige;
     margin-left: 10px;
 }
+.btn-link {
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: rgb(3, 3, 65);
+}
+
+.card {
+    background-color: rgb(73, 73, 73);
+}
 
 @media screen and (max-width: 600px) {
     .info__texto {

@@ -8,18 +8,18 @@
     margin-top: 50px;
     padding-bottom: 5px;
     margin-left: 17px;
-    width: 500px; }
+    width: 920px; }
 
-.days {
+.days_row {
     display: flex;
     flex-direction: row;
 }
 
 @media screen and (max-width: 600px) {
     .reservas{ 
-        width: 400px!important;
+        width: 300px!important;
     }
-    .days {
+    .days_row {
         display: flex;
         flex-direction: column;
         margin: 31px 10px 0px 4px !important;
