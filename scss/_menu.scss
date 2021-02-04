@@ -79,4 +79,10 @@
     .cast {
         list-style-type: circle;}
 
-
+@media screen and (max-width: 600px) {
+    header {
+        margin-right: 12px;
+        margin-left: 12px;
+    h2 {
+        font-size: 14px;
+}}}
