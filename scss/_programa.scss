@@ -15,6 +15,11 @@
     flex-direction: row;
 }
 
+.footprog {
+    margin-left: 16px;
+    padding-top: 65px;
+}
+
 @media screen and (max-width: 600px) {
     .reservas{ 
         width: 300px!important;
@@ -24,7 +29,3 @@
         flex-direction: column;
         margin: 31px 10px 0px 4px !important;
 }}
-
-.footer_prog {
-    margin-top: 20px;
-}

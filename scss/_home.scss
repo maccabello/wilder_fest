@@ -6,6 +6,16 @@
     animation-duration: 4s;
     animation-name: principal; }
 
+
+.footindex {
+    margin-left: 16px;
+    padding-top: 65px;
+}
+
+h2:hover {
+    color: rgb(112, 77, 241);
+}
+
 @keyframes principal {
     0% {
     opacity: 0; }

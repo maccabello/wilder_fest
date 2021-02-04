@@ -79,6 +79,13 @@ nav ul {
   animation-duration: 4s;
   animation-name: principal; }
 
+.footindex {
+  margin-left: 16px;
+  padding-top: 65px; }
+
+h2:hover {
+  color: #704df1; }
+
 @keyframes principal {
   0% {
     opacity: 0; }
@@ -96,19 +103,24 @@ nav ul {
     grid-column-gap: 3px; } }
 
 /* ---------------------------------FESTIVAL---------------------------------*/
-.row {
+.rowfest {
   display: flex;
   flex-direction: row;
-  margin: 130px 16px 100px 24px; }
+  margin: 50px 16px 100px 24px;
+  padding-top: 30px; }
 
 .festival {
-  margin-top: 100px; }
+  margin-top: 60px; }
 
 .img_festival {
   height: 100%;
   margin-top: 70px;
   animation-duration: 4s;
   animation-name: imgfest; }
+
+.footfest {
+  margin-left: 32px;
+  padding-top: 90px; }
 
 @keyframes imgfest {
   0% {
@@ -144,6 +156,10 @@ nav ul {
   display: flex;
   flex-direction: row; }
 
+.footprog {
+  margin-left: 16px;
+  padding-top: 65px; }
+
 @media screen and (max-width: 600px) {
   .reservas {
     width: 300px !important; }
@@ -152,15 +168,12 @@ nav ul {
     flex-direction: column;
     margin: 31px 10px 0px 4px !important; } }
 
-.footer_prog {
-  margin-top: 20px; }
-
 /* ---------------------------------INFORMACIÓN---------------------------------*/
 .info {
   display: flex;
   flex-direction: row;
   margin-top: 90px;
-  margin-left: 29px; }
+  margin-left: 19px; }
 
 .info__texto {
   width: 556px; }
@@ -183,6 +196,10 @@ nav ul {
 .card {
   background-color: #494949; }
 
+.footinfo {
+  margin-left: 12px;
+  padding-top: 145px; }
+
 @media screen and (max-width: 600px) {
   .info__texto {
     width: 406px !important; }
@@ -195,8 +212,9 @@ nav ul {
       margin-left: 10px; } }
 
 /* ---------------------------------CONTACTO---------------------------------*/
-.row {
-  margin-top: 60px;
+.contacto {
+  margin-top: 70px;
+  margin-left: 20px;
   display: flex;
   flex-direction: row; }
 
@@ -208,7 +226,13 @@ label[for=nya] {
   height: 100%; }
 
 .news {
-  color: #666666; }
+  color: #666666;
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
+
+.footcont {
+  padding-top: 100px;
+  margin-left: 30px; }
 
 @media screen and (max-width: 600px) {
   .contacto {
@@ -218,7 +242,10 @@ label[for=nya] {
     .contacto .foto_contacto {
       margin-top: 20px;
       align-content: right;
-      height: 100% !important; } }
+      height: 100% !important; }
+      .contacto .foto_contacto .footcont {
+        padding-top: 10px;
+        margin-left: 30px; } }
 
 /* ---------------------------------FOOTER---------------------------------*/
 footer {
@@ -230,7 +257,3 @@ footer {
 @media screen and (max-width: 800px) {
   .footer_resp {
     margin-top: 0px; } }
-
-.contactanos {
-  padding-top: 10px;
-  margin-left: 22px; }

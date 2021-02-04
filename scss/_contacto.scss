@@ -1,6 +1,7 @@
 /* ---------------------------------CONTACTO---------------------------------*/
-.row {
-    margin-top: 60px;
+.contacto {
+    margin-top: 70px;
+    margin-left: 20px;
     display: flex;
     flex-direction: row; }
 
@@ -15,6 +16,13 @@
 
 .news {
     color: rgb(102, 102, 102);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.footcont {
+    padding-top: 100px;
+    margin-left: 30px;
 }
 
 @media screen and (max-width: 600px) {   
@@ -27,4 +35,9 @@
     margin-top: 20px;
     align-content: right;
     height: 100% !important;
-}}}
+
+    .footcont {
+        padding-top: 10px;
+        margin-left: 30px;
+
+}}}}

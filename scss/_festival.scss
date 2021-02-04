@@ -1,12 +1,13 @@
 /* ---------------------------------FESTIVAL---------------------------------*/
-.row {
+.rowfest {
     display: flex;
     flex-direction: row;
-    margin: 130px 16px 100px 24px ;
+    margin: 50px 16px 100px 24px;
+    padding-top: 30px;
 }
 
 .festival {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .img_festival {
@@ -16,6 +17,10 @@
     animation-name: imgfest; 
 }
 
+.footfest {
+    margin-left: 32px;
+    padding-top: 90px;
+}
 
 @keyframes imgfest {
 0% {
