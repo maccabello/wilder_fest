@@ -156,8 +156,7 @@ h2:hover {
 
 .reservas {
   margin-top: 50px;
-  padding-bottom: 5px;
-  margin-left: 17px; }
+  padding-bottom: 5px; }
 
 .days_row {
   display: flex;
@@ -179,7 +178,9 @@ h2:hover {
         padding-top: 30px; }
         .days_row .reservas .card-img-top .footprog {
           margin-left: 30px;
-          padding-top: 10px; } }
+          padding-top: 10px; }
+          .days_row .reservas .card-img-top .footprog .col-12 {
+            padding-left: 2px; } }
 
 /* ---------------------------------INFORMACIÓN---------------------------------*/
 .info {
