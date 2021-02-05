@@ -6,15 +6,20 @@
     padding-top: 30px;
 }
 
-.festival {
-    margin-top: 60px;
-}
+@media screen and (max-width: 600px) {
+        .img_festival{
+            margin-top: 0px !important;
+}}
 
 .img_festival {
     height: 100%;
     margin-top: 70px;
     animation-duration: 4s;
     animation-name: imgfest; 
+}
+
+.festival {
+    margin-top: 60px;
 }
 
 .footfest {
@@ -34,13 +39,15 @@ opacity: 1; } }
     .rowfest {
         display: flex;
         flex-direction: column;
-        margin: 5px 5px 2px 12px !important;
+        margin: 0px 5px 2px 12px !important;
         padding-top: 2px;
 
-    .festival {
-    margin-top: 2px !important;
+        .festival {
+            margin-top: 2px ;
 
-    .img_festival{
-        margin-top: 0px;
-        padding-top: 0px;
+        .img_festival{
+            margin-top: 0px !important;
+
+
+
 }}}}
