@@ -10,9 +10,13 @@
     color: rgb(158, 158, 158);
     }
 
+    .newsletter {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
 .foto_contacto {
-    margin-top: 20px;
-    height: 100%;}
+    margin-top: 69px;
+    margin-left: 100px;}
 
 .news {
     color: rgb(102, 102, 102);
@@ -20,8 +24,12 @@
     padding-bottom: 0px;
 }
 
+#exampleFormControlTextarea1 {
+    height: 130px;
+}
+
 .footcont {
-    padding-top: 100px;
+    padding-top: 70px;
     margin-left: 30px;
 }
 
@@ -29,10 +37,11 @@
     .contacto {
         display: flex;
         flex-direction: column;
-        margin: 31px 10px 0px 4px !important;
+        margin: 31px 20px 0px 22px !important;
 
     .foto_contacto {
     margin-top: 20px;
+    margin-left: 0px;
     align-content: right;
     height: 100% !important;
 

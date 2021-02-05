@@ -105,8 +105,8 @@ h2:hover {
     margin-left: 16px;
     padding-top: 325px;
     padding-bottom: 4px; }
-    .footindex .h2 {
-      font-size: 14px; } }
+    .footindex h2 {
+      font-size: 4px; } }
 
 /* ---------------------------------FESTIVAL---------------------------------*/
 .rowfest {
@@ -163,8 +163,7 @@ h2:hover {
   flex-direction: row; }
 
 .footprog {
-  margin-left: 16px;
-  padding-top: 65px; }
+  margin-left: 16px; }
 
 .card-img-top {
   padding-bottom: 20px; }
@@ -180,8 +179,7 @@ h2:hover {
       .days_row .reservas .card-img-top {
         padding-top: 30px; }
         .days_row .reservas .card-img-top .footprog {
-          margin-left: 30px;
-          padding-top: 10px; } }
+          margin-left: 30px; } }
 
 /* ---------------------------------INFORMACIÓN---------------------------------*/
 .info {
@@ -215,6 +213,11 @@ h2:hover {
   margin-left: 12px;
   padding-top: 145px; }
 
+.card-body-info {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px; }
+
 @media screen and (max-width: 600px) {
   .info__texto {
     width: 406px !important; }
@@ -222,7 +225,7 @@ h2:hover {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 22px;
     margin-right: 0px; }
     .info .info__img {
       margin-left: 0px;
@@ -243,26 +246,34 @@ h2:hover {
 label[for=nya] {
   color: #9e9e9e; }
 
+.newsletter {
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
+
 .foto_contacto {
-  margin-top: 20px;
-  height: 100%; }
+  margin-top: 69px;
+  margin-left: 100px; }
 
 .news {
   color: #666666;
   margin-bottom: 0px;
   padding-bottom: 0px; }
 
+#exampleFormControlTextarea1 {
+  height: 130px; }
+
 .footcont {
-  padding-top: 100px;
+  padding-top: 70px;
   margin-left: 30px; }
 
 @media screen and (max-width: 600px) {
   .contacto {
     display: flex;
     flex-direction: column;
-    margin: 31px 10px 0px 4px !important; }
+    margin: 31px 20px 0px 22px !important; }
     .contacto .foto_contacto {
       margin-top: 20px;
+      margin-left: 0px;
       align-content: right;
       height: 100% !important; }
       .contacto .foto_contacto .footcont {
