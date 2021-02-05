@@ -21,18 +21,25 @@
 }
 
 @media screen and (max-width: 600px) {
-    .reservas{ 
-        width: 300px!important;
-    }
     .days_row {
         display: flex;
         flex-direction: column;
-        margin: 31px 10px 0px 4px !important;
+
+    .reservas{ 
+        width: 300px!important;
+        margin-right: 2px;
+        margin-left: 2px;
+
+
+    .days__apartment {
+        padding-left: 0px !important;
+        padding-top: 30px;
+
     
     .card-img-top {
         padding-top: 30px;
 
     .footprog {
         margin-left: 30px;
-        padding-top: 10px !important;
-        }}}}
+        padding-top: 10px;
+        }}}}}}
