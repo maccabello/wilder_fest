@@ -166,6 +166,9 @@ h2:hover {
   margin-left: 16px;
   padding-top: 65px; }
 
+.card-img-top {
+  padding-bottom: 20px; }
+
 @media screen and (max-width: 600px) {
   .days_row {
     display: flex;
@@ -178,9 +181,7 @@ h2:hover {
         padding-top: 30px; }
         .days_row .reservas .card-img-top .footprog {
           margin-left: 30px;
-          padding-top: 10px; }
-          .days_row .reservas .card-img-top .footprog .col-12 {
-            padding-left: 2px; } }
+          padding-top: 10px; } }
 
 /* ---------------------------------INFORMACIÓN---------------------------------*/
 .info {
