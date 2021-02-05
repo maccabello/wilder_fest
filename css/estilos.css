@@ -147,21 +147,17 @@ h2:hover {
     margin: 0px 5px 2px 12px !important;
     padding-top: 2px; }
     .rowfest .festival {
-      margin-top: 2px; }
-      .rowfest .festival .img_festival {
-        margin-top: 0px !important; } }
+      margin-top: 2px; } }
 
 /* ---------------------------------PROGRAMA---------------------------------*/
 .contprog {
-  grid-area: contprog;
   margin-bottom: 20px;
   margin-left: 24px; }
 
 .reservas {
   margin-top: 50px;
   padding-bottom: 5px;
-  margin-left: 17px;
-  width: 920px; }
+  margin-left: 17px; }
 
 .days_row {
   display: flex;
@@ -176,17 +172,14 @@ h2:hover {
     display: flex;
     flex-direction: column; }
     .days_row .reservas {
-      width: 300px !important;
+      width: 300px;
       margin-right: 2px;
       margin-left: 2px; }
-      .days_row .reservas .days__apartment {
-        padding-left: 0px !important;
+      .days_row .reservas .card-img-top {
         padding-top: 30px; }
-        .days_row .reservas .days__apartment .card-img-top {
-          padding-top: 30px; }
-          .days_row .reservas .days__apartment .card-img-top .footprog {
-            margin-left: 30px;
-            padding-top: 10px; } }
+        .days_row .reservas .card-img-top .footprog {
+          margin-left: 30px;
+          padding-top: 10px; } }
 
 /* ---------------------------------INFORMACIÓN---------------------------------*/
 .info {
