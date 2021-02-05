@@ -89,7 +89,13 @@ nav ul {
   margin-left: 16px;
   padding-top: 65px; }
 
-h2:hover {
+h4 {
+  color: #073d8d;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 15px; }
+
+h4:hover {
   color: #704df1; }
 
 @keyframes principal {
@@ -101,12 +107,12 @@ h2:hover {
     opacity: 1; } }
 
 @media screen and (max-width: 600px) {
-  .footindex {
-    margin-left: 16px;
-    padding-top: 325px;
-    padding-bottom: 4px; }
-    .footindex h2 {
-      font-size: 4px; } }
+  h4 {
+    font-size: 14px; }
+    h4 .footindex {
+      margin-left: 16px;
+      padding-top: 325px;
+      padding-bottom: 4px; } }
 
 /* ---------------------------------FESTIVAL---------------------------------*/
 .rowfest {
@@ -129,7 +135,7 @@ h2:hover {
   margin-top: 60px; }
 
 .footfest {
-  margin-left: 32px;
+  margin-left: 22px;
   padding-top: 90px; }
 
 @keyframes imgfest {
@@ -144,7 +150,7 @@ h2:hover {
   .rowfest {
     display: flex;
     flex-direction: column;
-    margin: 0px 5px 2px 12px !important;
+    margin: 0px 5px 2px 22px !important;
     padding-top: 2px; }
     .rowfest .festival {
       margin-top: 2px; } }
@@ -220,7 +226,7 @@ h2:hover {
 
 @media screen and (max-width: 600px) {
   .info__texto {
-    width: 406px !important; }
+    width: 456px !important; }
   .info {
     display: flex;
     flex-direction: column;
