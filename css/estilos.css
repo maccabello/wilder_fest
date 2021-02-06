@@ -87,13 +87,14 @@ nav ul {
 
 .footindex {
   margin-left: 16px;
-  padding-top: 65px; }
+  margin-top: 70px; }
 
 h4 {
   color: #073d8d;
   font-weight: bold;
   font-size: 25px;
-  padding-top: 15px; }
+  padding-top: 15px;
+  padding-bottom: 0px; }
 
 h4:hover {
   color: #704df1; }
@@ -107,12 +108,10 @@ h4:hover {
     opacity: 1; } }
 
 @media screen and (max-width: 600px) {
+  .banner_principal {
+    margin-top: 50px; }
   h4 {
-    font-size: 14px; }
-    h4 .footindex {
-      margin-left: 16px;
-      padding-top: 325px;
-      padding-bottom: 4px; } }
+    font-size: 14px; } }
 
 /* ---------------------------------FESTIVAL---------------------------------*/
 .rowfest {
@@ -238,7 +237,7 @@ h4:hover {
       margin-right: 0px;
       margin-top: 30px; }
       .info .info__img .footinfo {
-        margin-left: 12px;
+        margin-left: 22px;
         padding-top: 0px;
         margin-top: 0px; } }
 
@@ -263,14 +262,14 @@ label[for=nya] {
 .news {
   color: #666666;
   margin-bottom: 0px;
-  padding-bottom: 0px; }
+  padding-bottom: 15px; }
 
 #exampleFormControlTextarea1 {
   height: 130px; }
 
 .footcont {
-  padding-top: 70px;
-  margin-left: 30px; }
+  padding-top: 100px;
+  margin-left: 22px; }
 
 @media screen and (max-width: 600px) {
   .contacto {
@@ -283,7 +282,7 @@ label[for=nya] {
       align-content: right;
       height: 100% !important; }
       .contacto .foto_contacto .footcont {
-        padding-top: 10px;
+        padding-top: 0px;
         margin-left: 30px; } }
 
 /* ---------------------------------FOOTER---------------------------------*/
@@ -295,4 +294,6 @@ footer {
 
 @media screen and (max-width: 800px) {
   .footer_resp {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+    .footer_resp .footindex {
+      margin-top: 2100px; } }
