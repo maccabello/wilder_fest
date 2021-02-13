@@ -38,6 +38,12 @@ h2 {
 h2:hover {
   color: #0e0468; }
 
+h3 {
+  font-size: 18px;
+  color: #36078d;
+  font-weight: bold;
+  padding-top: 3px; }
+
 h5 {
   font-weight: bold; }
 
@@ -86,8 +92,9 @@ nav ul {
   animation-name: principal; }
 
 .footindex {
-  margin-left: 16px;
-  margin-top: 70px; }
+  margin-left: 22px;
+  margin-top: 70px;
+  padding-bottom: 10px; }
 
 h4 {
   color: #073d8d;
@@ -111,18 +118,13 @@ h4:hover {
   .banner_principal {
     margin-top: 50px; }
   h4 {
-    font-size: 14px; } }
+    font-size: 1rem; }
+  .footindex {
+    margin-top: 30px; } }
 
 /* ---------------------------------FESTIVAL---------------------------------*/
-.rowfest {
-  display: flex;
-  flex-direction: row;
-  margin: 50px 16px 100px 24px;
-  padding-top: 30px; }
-
-@media screen and (max-width: 600px) {
-  .img_festival {
-    margin-top: 0px !important; } }
+.festi {
+  margin-left: 29px; }
 
 .img_festival {
   height: 100%;
@@ -130,12 +132,21 @@ h4:hover {
   animation-duration: 4s;
   animation-name: imgfest; }
 
-.festival {
-  margin-top: 60px; }
+.img_festival2 {
+  margin-top: 40px;
+  height: 100%;
+  animation-duration: 4s;
+  animation-name: imgfest; }
+
+.festival1 {
+  margin-top: 25px; }
+
+.festival2 {
+  margin-top: 15px; }
 
 .footfest {
-  margin-left: 22px;
-  padding-top: 90px; }
+  margin-left: 29px;
+  padding-bottom: 15px; }
 
 @keyframes imgfest {
   0% {
@@ -145,52 +156,71 @@ h4:hover {
   100% {
     opacity: 1; } }
 
+.row {
+  margin: 0px 29px 2px 22px;
+  padding-top: 2px; }
+
 @media screen and (max-width: 600px) {
-  .rowfest {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 5px 2px 22px !important;
-    padding-top: 2px; }
-    .rowfest .festival {
-      margin-top: 2px; } }
+  .img_festival {
+    margin-top: 5px;
+    padding-bottom: 16px; }
+  .img_festival2 {
+    margin-top: 0px;
+    padding-bottom: 20px; } }
 
 /* ---------------------------------PROGRAMA---------------------------------*/
 .contprog {
   margin-bottom: 20px;
-  margin-left: 24px; }
+  margin-left: 28px; }
 
 .reservas {
   margin-top: 50px;
   padding-bottom: 5px; }
 
-.days_row {
-  display: flex;
-  flex-direction: row; }
+.card-text {
+  font-size: 0.8rem;
+  width: 400px; }
+
+.row {
+  margin-top: 20px; }
 
 .footprog {
-  margin-left: 16px; }
+  margin-left: 22px;
+  margin-top: 60px;
+  padding-bottom: 10px; }
 
-.card-img-top {
-  padding-bottom: 20px; }
+p {
+  margin-bottom: 8px; }
 
 @media screen and (max-width: 600px) {
   .days_row {
     display: flex;
     flex-direction: column; }
-    .days_row .reservas {
-      width: 300px;
-      margin-right: 2px;
-      margin-left: 2px; }
-      .days_row .reservas .card-img-top {
-        padding-top: 30px; }
-        .days_row .reservas .card-img-top .footprog {
-          margin-left: 30px; } }
+  .reservas {
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 2px;
+    margin-top: 10px; }
+  .col-12 {
+    padding-right: 0px; }
+  .row {
+    margin-top: 0px; }
+  .card-text {
+    font-size: 0.8rem;
+    width: 265px; }
+  .card-img-top {
+    padding-top: 10px; }
+  .card-body {
+    padding-bottom: 10px; }
+  .footprog {
+    margin-left: 30px;
+    margin-top: 0px; } }
 
 /* ---------------------------------INFORMACIÓN---------------------------------*/
 .info {
   display: flex;
   flex-direction: row;
-  margin-top: 90px;
+  margin-top: 60px;
   margin-left: 19px; }
 
 .info__texto {
@@ -216,7 +246,8 @@ h4:hover {
 
 .footinfo {
   margin-left: 12px;
-  padding-top: 145px; }
+  padding-top: 135px;
+  padding-bottom: 10px; }
 
 .card-body-info {
   -ms-flex: 1 1 auto;
@@ -243,47 +274,50 @@ h4:hover {
 
 /* ---------------------------------CONTACTO---------------------------------*/
 .contacto {
-  margin-top: 70px;
-  margin-left: 20px;
-  display: flex;
-  flex-direction: row; }
+  margin-top: 55px; }
 
 label[for=nya] {
   color: #9e9e9e; }
 
-.newsletter {
-  margin-bottom: 0px;
-  padding-bottom: 0px; }
+.info_contacto {
+  margin-left: 22px; }
 
-.foto_contacto {
-  margin-top: 69px;
-  margin-left: 100px; }
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
 
 .news {
   color: #666666;
   margin-bottom: 0px;
   padding-bottom: 15px; }
 
+.foto_contacto {
+  margin-left: 60px;
+  margin-top: 60px; }
+
 #exampleFormControlTextarea1 {
   height: 130px; }
 
 .footcont {
-  padding-top: 100px;
-  margin-left: 22px; }
+  padding-top: 115px;
+  margin-left: 22px;
+  padding-bottom: 10px; }
 
 @media screen and (max-width: 600px) {
   .contacto {
     display: flex;
     flex-direction: column;
-    margin: 31px 20px 0px 22px !important; }
-    .contacto .foto_contacto {
-      margin-top: 20px;
-      margin-left: 0px;
-      align-content: right;
-      height: 100% !important; }
-      .contacto .foto_contacto .footcont {
-        padding-top: 0px;
-        margin-left: 30px; } }
+    margin: 10px 40px 0px 22px !important; }
+  .foto_contacto {
+    margin-top: 20px;
+    margin-left: 0px;
+    align-content: right;
+    height: 100% !important; }
+  .info_contacto {
+    margin-left: 0px; }
+  .footcont {
+    padding-top: 20px;
+    margin-left: 28px; } }
 
 /* ---------------------------------FOOTER---------------------------------*/
 footer {
@@ -294,6 +328,4 @@ footer {
 
 @media screen and (max-width: 800px) {
   .footer_resp {
-    margin-top: 0px; }
-    .footer_resp .footindex {
-      margin-top: 2100px; } }
+    margin-top: 0px; } }

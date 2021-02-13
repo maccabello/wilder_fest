@@ -2545,7 +2545,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #073d8d;
   border-color:  #073d8d;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .btn-primary:hover {
@@ -4785,8 +4785,8 @@ input[type="button"].btn-block {
 }
 
 .card-title {
-  margin-bottom: 0.75rem;
-  margin-top: 10px;
+  margin-bottom: 0.25rem;
+  margin-top: 5px;
   color: white;
 }
 

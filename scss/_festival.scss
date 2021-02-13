@@ -1,15 +1,7 @@
 /* ---------------------------------FESTIVAL---------------------------------*/
-.rowfest {
-    display: flex;
-    flex-direction: row;
-    margin: 50px 16px 100px 24px;
-    padding-top: 30px;
+.festi {
+    margin-left: 29px;
 }
-
-@media screen and (max-width: 600px) {
-        .img_festival{
-            margin-top: 0px !important;
-}}
 
 .img_festival {
     height: 100%;
@@ -18,13 +10,24 @@
     animation-name: imgfest; 
 }
 
-.festival {
-    margin-top: 60px;
+.img_festival2 {
+    margin-top: 40px;
+    height: 100%;
+    animation-duration: 4s;
+    animation-name: imgfest;
+}
+
+.festival1 {
+    margin-top: 25px;
+}
+
+.festival2 {
+    margin-top: 15px;
 }
 
 .footfest {
-    margin-left: 22px;
-    padding-top: 90px;
+    margin-left: 29px;
+    padding-bottom: 15px;
 }
 
 @keyframes imgfest {
@@ -35,13 +38,17 @@ opacity: 0,5; }
 100% {
 opacity: 1; } }
 
-@media screen and (max-width: 600px) {
-    .rowfest {
-        display: flex;
-        flex-direction: column;
-        margin: 0px 5px 2px 22px !important;
-        padding-top: 2px;
+.row {
+    margin: 0px 29px 2px 22px;
+    padding-top: 2px;}
 
-        .festival {
-            margin-top: 2px ;
-}}}
+@media screen and (max-width: 600px) {
+    .img_festival {
+        margin-top: 5px;
+        padding-bottom: 16px;
+}
+
+.img_festival2 {
+    margin-top: 0px;
+    padding-bottom: 20px;
+}}
