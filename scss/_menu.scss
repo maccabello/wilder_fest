@@ -30,14 +30,9 @@
     font-family: 'Courier New', Courier, monospace;}
 
     h2 {
-        color: #073d8d;
+        color: #666666;
         font-weight: bold;
-        font-size: 25px;
-        padding-top: 15px;
-    }
-
-    h2:hover {
-    color: #0e0468;
+        font-size: 14px;
     }
 
 h3 {
@@ -45,6 +40,11 @@ h3 {
     color: #7544cf;
     font-weight: bold;
     padding-top: 3px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 10px;
 }
 
     h5 {
@@ -63,7 +63,7 @@ h3 {
     }
     
     nav ul {
-        float: right;
+        float: none;
         
 
     li {
