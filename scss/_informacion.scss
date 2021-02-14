@@ -1,7 +1,5 @@
 /* ---------------------------------INFORMACIÓN---------------------------------*/
 .info {
-    display: flex;
-    flex-direction: row;
     margin-top: 60px; 
     margin-left: 19px;}
 
@@ -10,13 +8,17 @@
 }
 
 .info__img {
-    margin-left: 100px;
+    margin-left: 700px;
     margin-right: 20px;
+    margin-top: 33px;
+    position: absolute;
 }
 
 .texto_cards {
     color: beige;
-    margin-left: 10px;
+    margin-left: 23px;
+    margin-right: 10px;
+    font-size: 15px;
 }
 .btn-link {
     text-decoration: none;
@@ -32,8 +34,8 @@
 }
 
 .footinfo {
-    margin-left: 12px;
-    padding-top: 135px;
+    margin-left: 20px;
+    padding-top: 125px;
     padding-bottom: 10px;
 }
 
@@ -52,15 +54,27 @@
         flex-direction: column;
         margin-top: 10px; 
         margin-left: 22px;
-        margin-right: 0px;
+        margin-right: 0px;}
 
     .info__img {
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 30px;
+        position:inherit;}
     
-            .footinfo {
-                margin-left: 22px;
-                padding-top: 0px;
-                margin-top: 0px;
-            }}}}
+        #accordion {
+            width: 360px;
+        }
+    
+        .texto_cards {
+            margin-left: 18px;
+}
+
+        .card-header {
+            padding-left:  0.25rem;
+        }
+    .footinfo {
+        margin-left: 22px;
+        padding-top: 0px;
+        margin-top: 10px;
+    }}

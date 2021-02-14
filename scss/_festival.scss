@@ -26,8 +26,9 @@
 }
 
 .footfest {
+    margin-top: 16px;
     margin-left: 29px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 @keyframes imgfest {
@@ -48,7 +49,16 @@ opacity: 1; } }
         padding-bottom: 16px;
 }
 
+.festi {
+    margin-right: 15px;
+}
+
 .img_festival2 {
     margin-top: 0px;
-    padding-bottom: 20px;
-}}
+    padding-bottom: 15px;}
+
+    .footfest {
+        margin-left: 29px;
+        padding-bottom: 15px;
+    }
+}

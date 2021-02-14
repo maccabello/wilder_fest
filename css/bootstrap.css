@@ -4640,7 +4640,8 @@ input[type="button"].btn-block {
 
 @media screen and (max-width: 600px) {
   .navbar-light .navbar-nav .nav-link{
-    background-color: rgba(41, 41, 41, 0.39); } }
+    background-color: rgba(41, 41, 41, 0.39); 
+    padding-left: 10px;}} 
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   color: rgba(129, 115, 255, 0.7);
@@ -4810,7 +4811,10 @@ width: 275px;
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
+  padding-top: 0.75rem;
+  padding-left:  0.75rem;
+  padding-bottom: 0.75rem;
+  padding-right: 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
